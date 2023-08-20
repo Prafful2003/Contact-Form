@@ -1,0 +1,66 @@
+* {
+    box-sizing: content-box;
+    text-align: none;
+    background-color: rgb(248, 230, 205));
+    
+}
+
+body {
+    margin: 8px 15px;
+    padding: 8px;
+    font-size: 17px;
+}
+
+.heading {
+    color: rgb(88, 0, 122);
+    font-size: 50px;
+}
+
+.point {
+    background-size: 30%;
+    font-weight: bold;
+    color: rgb(82, 0, 158);
+    font-size: 20px;
+}
+
+input[type="firstname"],
+input[type="middlename"],
+input[type="lastname"],
+input[type="number"],
+input[type="email"],
+input[type="address"],
+input[type="subject"],
+textarea 
+ {
+    width: 13%;
+    padding: 2px;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+input[type="Submit"] {
+    color:rgb(255, 255, 255);
+    background-color: rgb(72, 194, 45);
+    border-radius: 8px;
+    padding: 5px;
+    width: 5%;
+    cursor: pointer;
+
+}
+input[type="Submit"]:hover {
+    color:rgb(88, 0, 122);
+    background-color: rgb(52, 175, 191);
+  
+
+}
+
+.main {
+    background-color: #cccccc;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.select_country {
+    border-radius: 5px;
+}
